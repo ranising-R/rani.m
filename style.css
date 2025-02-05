@@ -1,0 +1,189 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Header Styling */
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* About Me Section */
+#about {
+  padding: 50px 0;
+  background-color: white;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 2.5rem;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Skills Table Section */
+#skills {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+}
+
+#skills h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+#skills table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#skills th,
+#skills td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#skills th {
+  background-color: #4caf50;
+  color: white;
+}
+
+#skills td {
+  background-color: #fff;
+}
+
+/* Audio Section */
+#audio {
+  padding: 50px 0;
+  background-color: white;
+  text-align: center;
+}
+
+#audio h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#audio audio {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Video Section */
+#video {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+}
+
+/* Contact Form Section */
+#contact {
+  padding: 50px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact button {
+  padding: 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #45a049;
+}
+
+/* Footer Section */
+footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
